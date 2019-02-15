@@ -1,0 +1,27 @@
+name: maps
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  rxdart: ^0.19.0
+
+  google_maps_flutter: ^0.2.0+3
+  flutter_google_places: ^0.1.4
+  location: ^1.4.1
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
